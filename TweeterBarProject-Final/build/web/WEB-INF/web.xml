@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>tweets</servlet-name>
+        <servlet-class>com.twitter.r3group.tweets</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>trends</servlet-name>
+        <servlet-class>com.twitter.r3group.trends</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>tweets</servlet-name>
+        <url-pattern>/tweets.servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>trends</servlet-name>
+        <url-pattern>/trends.servlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>
+            index.jsp
+        </welcome-file>
+    </welcome-file-list>
+</web-app>

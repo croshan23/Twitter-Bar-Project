@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding-top: 5px;
+}
+#bar {
+    width: 100%;
+    height: 30px;
+    color: lightslategrey;
+    font-family: calibri;
+    border-top: 1px solid grey;
+    border-bottom: 2px solid #1DA1F2;
+    padding-top: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#bar span{
+    font-weight: bold;
+}
+#bar ul{
+    display: inline;
+    margin-left: 70%;
+}
+#bar ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+}
+#bar ul li a{
+    text-decoration: none;
+    color: lightslategrey;
+}
+#bar ul li a:hover{
+    font-weight: bold;
+
+}
+#banner {
+    height: 300px;
+    background-image: url(../images/slice.png);
+    text-align: center;
+    margin-bottom: 0px;
+}
+#banner img{
+    height: 300px;  
+}
+/*---------------SECTION ELEMENT'S CSS PART--------------------------*/
+/*
+THIS CSS IS JUST TO MAKE SECTION PART LOOK DISTINGUISH
+heigh colors can be changed further...
+One can edit it in its way, just keep the below ID same
+*/
+section{
+     height: 800px;
+}
+#container{
+    width: 80%;
+    margin: auto;
+    padding: 15px 0px 15px 0px;
+}
+/*-----------FOR SERVLET HTML CODE-------------------*/
+.containerElement{    
+    height: 200px;
+    width: 300px;
+    border: 1px solid #3333ff;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-table;
+    margin: 7px;
+    padding:7px;
+}
+.containerElement img{
+    border-radius: 3px;
+    float: left;
+    margin: 3px 3px 3px 3px;
+}
+.containerElement span{
+    font-family: calibri;
+    font-weight: bolder;
+    margin-left: 7px;
+}
+.containerElement a{
+    color:grey;
+}
+.containerElement p{
+    clear: left;
+}
+/*---------FOR TRENDS MAP OUTPUT--------------*/
+
+/*---------FOR MENU BARS IN SERVLET OUTPUT--------------*/
+nav{
+    margin-bottom: 10px;
+}
+.amenu{
+    color: white;
+    text-decoration: none;
+}
+div.menu {
+    width: 100px;
+    height: 30px;
+    margin: 10px 25px 0px 25px;
+    padding-top: 5px;
+    background-color: grey;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+/*---------------FOOTER ELEMENT'S CSS PART--------------------------*/
+footer{
+    height: 50px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
